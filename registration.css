@@ -1,0 +1,1203 @@
+body{
+    background-color: rgb(173, 173, 173);
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg_top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: rgb(133, 131, 131);
+    border-top: 5px solid rgb(13, 104, 98);
+    border-bottom: 5px solid rgb(13, 104, 98);
+    border-radius: 37px;
+    height: 90px;
+}
+
+.logo{
+    width: 260px;
+    height: 200;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+nav{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(53, 104, 104);
+    color: rgb(255, 255, 255);
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(95, 95, 95);
+    border-radius: 9px;
+    padding: 5px;
+    margin: 15px;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: rgb(13, 216, 216);
+    border-top: 2px solid rgb(52, 119, 119);
+    border-bottom: 2px solid rgb(52, 119, 119);
+}
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+    max-width: 1500px;
+}
+
+.reg_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.reg_heading h2{
+    flex: 1;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color:rgb(48, 88, 88);
+}
+
+.reg_heading img{
+    flex: 1;
+    width: 200px;
+}
+
+.registration .reg_para{
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registration .reg_image{
+    flex: 1;
+    max-width: 600px;
+}
+
+.registration .reg_image img{
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 500px;
+}
+
+.box h2{
+    color: aqua;
+}
+
+.top .box{
+    flex: 1;
+}
+
+.form_content{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-top: 4px solid aqua;
+    border-bottom: 4px solid aqua;
+    border-radius: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.form_content h2{
+    color: white;
+}
+
+.form_box{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.gender_box{
+    flex: 1;
+    font-weight:100;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(12, 171, 171);
+}
+
+input, select {
+    padding: 8px;
+    border:  2px solid rgb(104, 105, 105);
+    background-color: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.buttons{
+    margin-top: 50px;
+}
+
+.buttons button{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin: 20px;
+    background-color: rgb(21, 104, 104);
+    border: 3px solid rgb(96, 96, 96);
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    padding: 3px;
+}
+
+.buttons button:hover{
+    color: aqua;
+    border-top: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    border-radius: 30px;
+}
+
+/*Footer */
+footer{
+    background-image: url("images/registration\ footer.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid rgb(132, 130, 130);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    margin-top: 10px;
+    
+}
+
+.copy{
+    margin-left: 100px;
+}
+
+/*I wanted to apply flex for the footer so that my content goes accordingly*/
+.footer_container {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/*Common style*/
+.footer-left,
+.footer-middle,
+.footer-right,
+.footer-corner{
+    flex: 1;
+    margin-right: 20px;
+}
+
+/*I divived the footer section into 4, footer_left, footer_middle, footer_right, footer_corner*/
+
+/*footer_left section styles*/
+.footer-left {
+    width: 60px;
+}
+
+.footer-left img{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width:1030px) and (max-width:1357px) {
+    .footer-left img{
+        width: 200px;
+    }
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.social-icons img {
+    
+    background-color: white;
+    width:15px;
+    height: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.social-icons img:hover{
+    background-color: aqua;
+}
+
+
+/*footer_middle & footer_right section styles*/
+.footer-middle,
+.footer-right{
+    margin-left: 40px;
+    width: 700px;
+}
+
+.footer-middle ul,
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li,
+.footer-right ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-right h3 {
+    margin-top: 20px;
+}
+
+.footer-right p{
+    font-size: xx-large;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.footer-right p b{
+    color: aqua;
+}
+
+/*footer_corner section styles*/
+.footer-corner{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.636);
+    display: flex;
+    background-size: cover;
+}
+
+.footer-corner nav{
+    width: 250px;
+}
+
+.footer-corner nav a{
+    display: block;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 9px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-corner nav a:hover{
+    
+    border-top: 2px solid rgb(0,255,255);
+    border-bottom: 2px solid rgb(0,255,255);
+}
+
+@media screen and (min-width:1030px) and (max-width:1357px) {
+    .logo{
+        width: 170px;
+        height: 70px;
+        margin-top: 8px;
+        margin-right: 5px;
+    }
+
+    .reg_top{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    nav{
+        padding: 10px;
+    }
+
+    nav a{
+        font-size: 11px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:815px) and (max-width:1030px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 180px;
+        margin: 0%;
+        margin-left: 290px;
+        margin-top: 10px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 750px;
+        margin: 0%;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        height: 260px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        width: 300px;
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-left: 200px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: row;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: row;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 290px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 800px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 600px;
+        margin: 0%;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:720px) and (max-width:815px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 70px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 270px;
+        margin: 0%;
+        margin-left: 220px;
+        flex-direction: column;
+        height: 260px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 15px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .registration .reg_image{
+        max-width: 900px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 190px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 700px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 500px;
+        margin: 0%;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:720px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 70px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 270px;
+        margin: 0%;
+        margin-left: 170px;
+        flex-direction: column;
+        height: 260px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 190px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 600px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 400px;
+        margin: 0%;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:520px) and (max-width:600px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 70px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 270px;
+        margin: 0%;
+        margin-left: 120px;
+        flex-direction: column;
+        height: 260px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 150px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 500px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 300px;
+        margin: 0%;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px) and (max-width:520px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 15px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 180px;
+        margin: 0%;
+        margin-left: 150px;
+        flex-direction: column;
+        height: 280px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 150px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 470px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin: 0%;
+        margin-left: 90px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:414px) and (max-width:480px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 15px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 180px;
+        margin: 0%;
+        margin-left: 120px;
+        flex-direction: column;
+        height: 280px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 90px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 390px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin: 0%;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:414px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 15px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 160px;
+        margin: 0%;
+        margin-left: 100px;
+        flex-direction: column;
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 60px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 340px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin: 0%;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:360px) {
+
+    /*Header section*/
+    .logo{
+        background-color: rgba(255, 255, 255, 0.549);
+        width: 130px;
+        margin: 0%;
+        margin-left: 15px;
+        margin-top: 20px;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+        border-radius: 10px;
+    }
+
+    .reg_top{
+        width: 160px;
+        margin: 0%;
+        margin-left: 80px;
+        flex-direction: column;
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    nav{
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a{
+        flex: 1;
+        font-size: 11px;
+        margin-top: 2px;
+        margin-bottom: 0%;
+        background-color: rgb(19, 99, 99);
+        text-align: center;
+    }
+
+    /*Heading*/
+
+    .registration{
+        flex-direction: column;
+    }
+
+    .reg_heading h2{
+        font-size: 20px;
+    }
+
+    .reg_heading img{
+        width: 80px;
+        margin: 0%;
+    }
+
+    .registration .reg_para{
+        font-size: 13px;
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        margin-left: 60px;
+        font-size: 10px;
+        color: white;
+    }
+
+    footer{
+        width: 340px;
+        margin: 0%;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin: 0%;
+    }
+
+}
+
+

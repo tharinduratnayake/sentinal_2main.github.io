@@ -1,0 +1,70 @@
+{
+    "categories": {
+        "ANALGESICS": {
+            "medicines": [
+                { "name": "Paracetamol", "id": "analgesic1", "min": 0, "placeholder": "Unit price: Rs. 10", "price": 10 },
+                { "name": "Ibuprofen", "id": "analgesic2", "min": 0, "placeholder": "Unit price: Rs. 15", "price": 15 },
+                { "name": "Aspirin", "id": "analgesic3", "min": 0, "placeholder": "Unit price: Rs. 12", "price": 12 },
+                { "name": "Codeine", "id": "analgesic4", "min": 0, "placeholder": "Unit price: Rs. 20", "price": 20 },
+                { "name": "Naproxen", "id": "analgesic5", "min": 0, "placeholder": "Unit price: Rs. 18", "price": 18 },
+                { "name": "Diclofenac", "id": "analgesic6", "min": 0, "placeholder": "Unit price: Rs. 22", "price": 22 }
+            ],
+            "images": ["./images/med 1.jpg", "./images/med 2.jpg"]
+        },
+        "ANTIBIOTICS": {
+            "medicines": [
+                { "name": "Amoxicillin", "id": "antibiotic1", "min": 0, "placeholder": "Unit price: Rs. 12", "price": 12 },
+                { "name": "Azithromycin", "id": "antibiotic2", "min": 0, "placeholder": "Unit price: Rs. 18", "price": 18 },
+                { "name": "Ciprofloxacin", "id": "antibiotic3", "min": 0, "placeholder": "Unit price: Rs. 20", "price": 20 },
+                { "name": "Doxycycline", "id": "antibiotic4", "min": 0, "placeholder": "Unit price: Rs. 15", "price": 15 },
+                { "name": "Cephalexin", "id": "antibiotic5", "min": 0, "placeholder": "Unit price: Rs. 14", "price": 14 },
+                { "name": "Metronidazole", "id": "antibiotic6", "min": 0, "placeholder": "Unit price: Rs. 16", "price": 16 }
+            ],
+            "images": ["./images/med 3.webp", "./images/med 4.jpg"]
+        },
+        "ANTIDEPRESSANTS": {
+            "medicines": [
+                { "name": "Sertraline", "id": "antidepressant1", "min": 0, "placeholder": "Unit price: Rs. 25", "price": 25 },
+                { "name": "Fluoxetine", "id": "antidepressant2", "min": 0, "placeholder": "Unit price: Rs. 22", "price": 22 },
+                { "name": "Escitalopram", "id": "antidepressant3", "min": 0, "placeholder": "Unit price: Rs. 28", "price": 28 },
+                { "name": "Citalopram", "id": "antidepressant4", "min": 0, "placeholder": "Unit price: Rs. 30", "price": 30 },
+                { "name": "Amitriptyline", "id": "antidepressant5", "min": 0, "placeholder": "Unit price: Rs. 18", "price": 18 },
+                { "name": "Venlafaxine", "id": "antidepressant6", "min": 0, "placeholder": "Unit price: Rs. 26", "price": 26 }
+            ],
+            "images": ["./images/med 5.jpg", "./images/med 6.jpeg"]
+        },
+        "ANTIHISTAMINES": {
+            "medicines": [
+                { "name": "Cetirizine", "id": "antihistamine1", "min": 0, "placeholder": "Unit price: Rs. 10", "price": 10 },
+                { "name": "Loratadine", "id": "antihistamine2", "min": 0, "placeholder": "Unit price: Rs. 12", "price": 12 },
+                { "name": "Diphenhydramine", "id": "antihistamine3", "min": 0, "placeholder": "Unit price: Rs. 8", "price": 8 },
+                { "name": "Fexofenadine", "id": "antihistamine4", "min": 0, "placeholder": "Unit price: Rs. 15", "price": 15 },
+                { "name": "Chlorpheniramine", "id": "antihistamine5", "min": 0, "placeholder": "Unit price: Rs. 9", "price": 9 },
+                { "name": "Desloratadine", "id": "antihistamine6", "min": 0, "placeholder": "Unit price: Rs. 14", "price": 14 }
+            ],
+            "images": ["./images/med 7.jpg", "./images/med 8.jpg"]
+        },
+        "ANTIHYPERTENSIVES": {
+            "medicines": [
+                { "name": "Lisinopril", "id": "antihypertensive1", "min": 0, "placeholder": "Unit price: Rs. 20", "price": 20 },
+                { "name": "Amlodipine", "id": "antihypertensive2", "min": 0, "placeholder": "Unit price: Rs. 18", "price": 18 },
+                { "name": "Losartan", "id": "antihypertensive3", "min": 0, "placeholder": "Unit price: Rs. 22", "price": 22 },
+                { "name": "Metoprolol", "id": "antihypertensive4", "min": 0, "placeholder": "Unit price: Rs. 25", "price": 25 },
+                { "name": "Atenolol", "id": "antihypertensive5", "min": 0, "placeholder": "Unit price: Rs. 19", "price": 19 },
+                { "name": "Hydrochlorothiazide", "id": "antihypertensive6", "min": 0, "placeholder": "Unit price: Rs. 17", "price": 17 }
+            ],
+            "images": ["./images/med 9.jpg", "./images/med 10.webp"]
+        },
+        "VITAMINS": {
+            "medicines": [
+                { "name": "Vitamin C (Ascorbic Acid)", "id": "vitamin1", "min": 0, "placeholder": "Unit price: Rs. 5", "price": 5 },
+                { "name": "Vitamin D3", "id": "vitamin2", "min": 0, "placeholder": "Unit price: Rs. 8", "price": 8 },
+                { "name": "Calcium Carbonate", "id": "vitamin3", "min": 0, "placeholder": "Unit price: Rs. 12", "price": 12 },
+                { "name": "Iron (Ferrous Sulfate)", "id": "vitamin4", "min": 0, "placeholder": "Unit price: Rs. 10", "price": 10 },
+                { "name": "Fish Oil (Omega-3)", "id": "vitamin5", "min": 0, "placeholder": "Unit price: Rs. 15", "price": 15 },
+                { "name": "Multivitamin tablets", "id": "vitamin6", "min": 0, "placeholder": "Unit price: Rs. 20", "price": 20 }
+            ],
+            "images": ["./images/med 11.avif", "./images/med 12.avif"]
+        }
+    }
+}

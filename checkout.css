@@ -1,0 +1,871 @@
+body{
+    background-color: rgb(92, 205, 205);
+    font-family:Arial, Helvetica, sans-serif;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+
+}
+
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(5, 87, 128);
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.head{
+    background-color: rgb(33, 32, 32);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.head img{
+    width: 360px;
+    height: auto;
+}
+
+.head button{
+    background-color: #00c49d;
+    width: 500px;
+}
+
+.head button:hover{
+    background-color: #004b3c;
+}
+
+#checkout-image{
+    width: 100%;
+    height: 500px;
+}
+
+
+/* General table styling */
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: 47px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+table thead {
+    background-color: #00ffd9;
+    color: #000000;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+/* Table body rows alternate colors */
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Bordered cells */
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 16px;
+    }
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left:140px ;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+} 
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.radio-group{
+    display: flex;
+    width: 60%;
+    margin-left: 350px;
+}
+
+.radio-group input{
+    width: 100px;
+}
+
+.hidden 
+{ display: none; }
+
+
+
+
+
+/*Footer */
+footer{
+    background-image: url("images/form\ page\ footer.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid rgb(69, 69, 69);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    margin-top: 10px;
+    
+}
+
+.copy{
+    margin-left: 100px;
+}
+
+/*I wanted to apply flex for the footer so that my content goes accordingly*/
+.footer_container {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 30px auto;
+}
+
+/*Common style*/
+.footer-left,
+.footer-middle,
+.footer-right,
+.footer-corner{
+    flex: 1;
+    margin-right: 20px;
+}
+
+/*I divived the footer section into 4, footer_left, footer_middle, footer_right, footer_corner*/
+
+/*footer_left section styles*/
+.footer-left {
+    width: 60px;
+}
+
+.footer-left img{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width:1030px) and (max-width:1357px) {
+    .footer-left img{
+        width: 200px;
+    }
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.social-icons img {
+    
+    background-color: white;
+    width:15px;
+    height: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.social-icons img:hover{
+    background-color: aqua;
+}
+
+
+/*footer_middle & footer_right section styles*/
+.footer-middle,
+.footer-right{
+    margin-left: 40px;
+    width: 700px;
+}
+
+.footer-middle ul,
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li,
+.footer-right ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-right h3 {
+    margin-top: 20px;
+}
+
+.footer-right p{
+    font-size: xx-large;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.footer-right p b{
+    color: aqua;
+}
+
+/*footer_corner section styles*/
+.footer-corner{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgba(0, 136, 113, 0.636);
+    display: flex;
+    background-size: cover;
+}
+
+.footer-corner nav{
+    width: 250px;
+}
+
+.footer-corner nav a{
+    display: block;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.footer-corner nav a:hover{
+    color: rgb(0,255,255);
+    border-top: 2px solid rgb(0,255,255);
+    border-bottom: 2px solid rgb(0,255,255);
+}
+
+
+
+
+
+
+@media screen and (min-width: 1030px) and (max-width: 1357px) {
+    .radio-group{
+        margin:80px;
+        padding-left: 190px;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        width: 93%;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 200px;
+    }
+
+    table{
+        margin: 7px;
+        width: 98%;
+        font-size: 15px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 88%;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 815px) and (max-width: 1030px) {
+    .radio-group{
+        margin:80px;
+        width: 380px;
+        font-size: 12px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        width: 92%;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 200px;
+    }
+
+    table{
+        margin: 7px;
+        width: 97%;
+        font-size: 15px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 88%;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 720px) and (max-width: 815px) {
+    .radio-group{
+        margin:80px;
+        width: 380px;
+        font-size: 12px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        width: 650px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 200px;
+    }
+
+    table{
+        margin: 7px;
+        width: 97%;
+        font-size: 15px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 720px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 570px;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 720px) {
+    .radio-group{
+        margin:80px;
+        width: 380px;
+        font-size: 12px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        width: 530px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 200px;
+    }
+
+    table{
+        margin: 7px;
+        width: 97%;
+        font-size: 15px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 600px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 450px;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 520px) and (max-width: 600px) {
+    .radio-group{
+        margin:40px;
+        width: 260px;
+        font-size: 10px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        width: 450px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 150px;
+    }
+
+    table{
+        margin: 7px;
+        width: 97%;
+        font-size: 15px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 520px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 360px;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 520px) {
+    .radio-group{
+        margin:40px;
+        width: 260px;
+        font-size: 10px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        padding-left: 2px;
+        width: 420px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 150px;
+    }
+
+    table{
+        margin-left: 9px;
+        font-size: 12px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 470px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 280px;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+    .radio-group{
+        margin:40px;
+        width: 260px;
+        font-size: 10px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        padding-left: 2px;
+        width: 360px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 150px;
+    }
+
+    table{
+        margin: 7px;
+        font-size: 12px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 410px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 280px;
+        margin-left: 60px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:414px) {
+    .radio-group{
+        margin:10px;
+        width: 220px;
+        font-size: 10px;
+    }
+
+    .form-container{
+        margin-left: 13px;
+        padding-left: 2px;
+        width: 310px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 150px;
+    }
+
+    table{
+        margin: 7px;
+        font-size: 12px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 350px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:360px) {
+    .radio-group{
+        margin:10px;
+        width: 220px;
+        font-size: 10px;
+    }
+
+    .form-container{
+        margin: 10px;
+    }
+
+    #checkout-image{
+        height:auto;
+    }
+
+    .head button{
+        width: 150px;
+    }
+
+    table{
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    /*Footer section*/
+
+    .copy{
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 300px;
+        text-align: center;
+    }
+
+    .footer_container{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right,
+    .footer-corner{
+        width: 250px;
+        margin: 0%;
+    }
+
+    .footer-corner{
+        background-color: transparent;
+    }
+    
+}
